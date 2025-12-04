@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Salma M'hajar - Développeuse web</title>
+    <meta
+      name="description"
+      content="Portfolio et CV en ligne de Salma M'hajar, développeuse web."
+    />
+
+    <!-- Google Font Nunito Sans -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome 6 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/img/favicon.png"
+    />
+
+    <!-- Notre CSS perso -->
+    <link
+      rel="stylesheet"
+      href="assets/css/style.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER / NAVBAR -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            SALMA M'HAJAR
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Basculer la navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="mainNavbar"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                >Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="realisations.html">Réalisations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Me contacter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mentions-legales.html"
+                >Mentions légales</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- SECTION HERO -->
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="display-4 mb-3">
+            Bonjour, je suis <strong>Salma M'hajar</strong>
+          </h1>
+          <h2 class="h4 mb-4">
+            Développeuse web front-end / full stack
+          </h2>
+          <a href="#a-propos" class="btn btn-primary btn-lg">
+            En savoir plus
+          </a>
+        </div>
+      </section>
+
+      <!-- SECTION A PROPOS -->
+      <section id="a-propos" class="bg-white">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Texte -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <h2 class="mb-3">À propos</h2>
+              <p>
+                Passionnée par le développement web et les nouvelles technologies,
+                je termine actuellement ma formation de développeuse web au CEF.
+                J'aime créer des interfaces modernes, accessibles et responsives.
+              </p>
+              <p>
+                Basée à Lyon, je suis à la recherche d'une alternance dans une
+                agence digitale ou une entreprise innovante pour mettre en pratique
+                mes compétences en <strong>intégration front-end</strong> et
+                <strong>développement JavaScript / React</strong>.
+              </p>
+              <p>
+                J'accorde une attention particulière à la <strong>qualité du code</strong>,
+                à l'<strong>expérience utilisateur</strong> et au respect des bonnes
+                pratiques du web.
+              </p>
+              <p>
+                J'ai également développé une petite application en <strong>React.js</strong> qui
+                consomme l’API GitHub pour afficher mon profil et mes statistiques en temps réel.
+                Vous pouvez la consulter ici&nbsp;:
+                <a
+                  href="https://codesandbox.io/p/sandbox/w5q23h"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Voir l'application React Profil GitHub
+                </a>.
+              </p>
+
+            </div>
+
+            <!-- Photo + compétences -->
+            <div class="col-lg-6">
+              <div class="mb-4 text-center">
+                <img
+                  src="assets/img/photo-salma.jpg"
+                  alt="Photo de Salma M'hajar"
+                  class="img-fluid rounded"
+                />
+              </div>
+
+              <h3 class="h5 mb-3">Mes compétences</h3>
+
+              <p class="mb-1">HTML5 90%</p>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+
+              <p class="mb-1">CSS3 / SCSS 85%</p>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 85%"
+                ></div>
+              </div>
+
+              <p class="mb-1">JavaScript 75%</p>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 75%"
+                ></div>
+              </div>
+
+              <p class="mb-1">React 70%</p>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                ></div>
+              </div>
+
+              <p class="mb-1">Bootstrap 80%</p>
+              <div class="progress mb-3">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer mt-5">
+      <div class="container">
+        <div class="row">
+          <!-- Colonne 1 : infos perso -->
+          <div class="col-md-3 mb-4">
+            <h5>Salma M'hajar</h5>
+            <p class="mb-1">40 Rue Laure Diebold</p>
+            <p class="mb-1">69009 Lyon, France</p>
+            <p class="mb-3">Téléphone : 06 20 30 40 50</p>
+            <div class="d-flex gap-3">
+              <!-- GitHub -->
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <i class="fab fa-github fa-lg"></i>
+              </a>
+              <!-- X (Twitter) -->
+              <a
+                href="https://x.com/home"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <i class="fab fa-x-twitter fa-lg"></i>
+              </a>
+              <!-- LinkedIn -->
+              <a
+                href="https://www.linkedin.com/feed/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+              >
+                <i class="fab fa-linkedin fa-lg"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Colonne 2 : liens utiles -->
+          <div class="col-md-3 mb-4">
+            <h5>Liens utiles</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="index.html#a-propos">À propos</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Me contacter</a></li>
+              <li><a href="mentions-legales.html">Mentions légales</a></li>
+            </ul>
+          </div>
+
+          <!-- Colonne 3 : dernières réalisations -->
+          <div class="col-md-3 mb-4">
+            <h5>Mes dernières réalisations</h5>
+            <ul class="list-unstyled">
+              <li><a href="realisations.html#projet1">Fresh food</a></li>
+              <li><a href="realisations.html#projet2">Restaurant Akira</a></li>
+              <li><a href="realisations.html#projet3">Espace bien-être</a></li>
+            </ul>
+          </div>
+
+          <!-- Colonne 4 : derniers articles -->
+          <div class="col-md-3 mb-4">
+            <h5>Mes derniers articles</h5>
+            <ul class="list-unstyled">
+              <li><a href="blog.html#article1">Coder son site en HTML/CSS</a></li>
+              <li><a href="blog.html#article2">Vendre ses produits sur le web</a></li>
+              <li><a href="blog.html#article3">Se positionner sur Google</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          © Designed by Salma M'hajar
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button
+      type="button"
+      class="btn btn-primary back-to-top"
+      id="backToTopBtn"
+      aria-label="Retour en haut"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts Bootstrap + JS perso (UNE SEULE FOIS) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
