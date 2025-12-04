@@ -2,8 +2,9 @@
 
 Projet développé dans le cadre de la formation Développeuse Web – CEF.
 
-
-## 1. Contenu du projet
+--------------------------------------------------
+1. Contenu du projet
+--------------------------------------------------
 
 Le site est composé des pages suivantes :
 
@@ -16,8 +17,9 @@ Le site est composé des pages suivantes :
 
 Le header et le footer sont identiques sur toutes les pages.
 
-
-## 2. Technologies utilisées
+--------------------------------------------------
+2. Technologies utilisées
+--------------------------------------------------
 
 - HTML5
 - CSS3
@@ -27,8 +29,9 @@ Le header et le footer sont identiques sur toutes les pages.
 - Font Awesome 6
 - Google Fonts : Nunito Sans
 
-
-## 3. Structure du projet
+--------------------------------------------------
+3. Structure du projet
+--------------------------------------------------
 
 .
 ├── index.html
@@ -58,15 +61,25 @@ Le header et le footer sont identiques sur toutes les pages.
 │   │   └── favicon.png
 │   └── js
 │       └── main.js
+├── captures
+│   ├── w3c-index
+│   ├── w3c-services
+│   ├── w3c-realisations
+│   ├── w3c-blog 
+│   ├── w3c-contact
+│   ├── w3c-mentions-legales
+│   └── w3c-css 
 └── README.md
 
-
-## 4. Application React - Profil GitHub
+--------------------------------------------------
+4. Application React – Profil GitHub
+--------------------------------------------------
 
 L'application React (hébergée sur CodeSandbox) affiche les informations d'un profil GitHub en temps réel.
 
 Fonctionnalités :
-- Récupération des données via : https://api.github.com/users/{username}
+- Récupération des données via :
+  https://api.github.com/users/{username}
 - Affichage :
   - Avatar
   - Nom
@@ -81,10 +94,12 @@ Hooks utilisés :
 - useEffect
 
 Lien vers l'application React :
-https://codesandbox.io/p/sandbox/w5q23h?file=%2Fsrc%2Findex.js%3A14%2C1
+- Voir l'application : https://codesandbox.io/p/sandbox/w5q23h
+- Voir le code     : https://codesandbox.io/p/sandbox/w5q23h
 
-
-## 5. Prérequis
+--------------------------------------------------
+5. Prérequis
+--------------------------------------------------
 
 Pour consulter le site :
 - Navigateur moderne (Chrome, Firefox, Edge…)
@@ -93,31 +108,43 @@ Pour travailler sur le code :
 - (Optionnel) VS Code
 - (Optionnel) Git installé
 
-
-## 6. Installation & lancement en local
+--------------------------------------------------
+6. Installation & lancement en local
+--------------------------------------------------
 
 Cloner le dépôt :
 
-git clone https://github.com/TON_COMPTE_GITHUB/NOM_DU_DEPOT.git
-
-(Remplacer TON_COMPTE_GITHUB et NOM_DU_DEPOT)
+git clone https://github.com/Mhajar-salma/portfolio-salma-mhajar
 
 Ensuite :
-1. Ouvrir le dossier dans votre éditeur
-2. Ouvrir index.html dans un navigateur
+1. Ouvrir le dossier dans votre éditeur.
+2. Ouvrir index.html dans un navigateur.
 
-Le site est 100% statique → aucune installation (pas de npm install).
+Le site est 100 % statique → aucune installation (pas de npm install).
 L'application React fonctionne séparément via CodeSandbox.
 
-
-## 7. Validation W3C
+--------------------------------------------------
+7. Validation W3C
+--------------------------------------------------
 
 Le code a été vérifié avec :
 - Validateur HTML : https://validator.w3.org/
-- Validateur CSS : https://jigsaw.w3.org/css-validator/
+- Validateur CSS  : https://jigsaw.w3.org/css-validator/
 
-Dossier recommandé pour les captures :
+Les captures des résultats sont disponibles dans le dossier "captures/".
 
-captures/
-  ├── w3c-html-index.png
-  └─
+--------------------------------------------------
+8. Hébergement
+--------------------------------------------------
+
+Le site est disponible en ligne via GitHub Pages :
+👉 https://mhajar-salma.github.io/portfolio-salma-mhajar/
+
+L'application React est hébergée indépendamment via CodeSandbox.
+
+--------------------------------------------------
+9. Auteur
+--------------------------------------------------
+
+Projet développé et designé par Salma M'hajar
+dans le cadre de la formation Développeuse Web – CEF.
